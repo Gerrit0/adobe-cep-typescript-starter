@@ -1,0 +1,17 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gerrit Birkeland <gerrit@gerritbirkeland.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack-cli": "^3.1.2",
+    "webpack": "^4.20.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:prod": "webpack --config webpack.config.js --mode production"
+  }
+}
